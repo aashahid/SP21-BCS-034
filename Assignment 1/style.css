@@ -1,0 +1,312 @@
+#container{
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        margin: 0 auto;
+        /* padding: 20px;    */
+        background-color: rgb(208, 204, 204);   
+        position: relative;
+}
+#intro{
+    background-color: rgb(5, 5, 111);
+    padding-bottom: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0
+}
+#name {
+    font-size: 40px;
+    padding-bottom: 8px;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 20px;
+  }
+#study {
+    font-size: 15px;
+    color: rgb(138, 225, 228);
+    padding-left: 263px;
+    font-family: Cambria, Cochin;
+}
+#first_name{
+    color:aliceblue;
+    font-family:Cambria, Cochin;
+    font-weight: bolder;
+}
+#last_name{
+    color: rgb(138, 225, 228);
+    font-family: Cambria, Cochin;
+    padding-left: 5px;
+}
+#side_col{
+    background-color: rgb(138, 225, 228);
+    height: 297mm;
+    position:relative;
+    top: 0;
+    left: 22px;
+    right: 0;
+    width: 27%;
+}
+#my{
+    width: 75%;
+    border: 3px solid darkcyan;
+    position: relative;
+    top: 20px;
+    left: 28px
+}
+#details{
+    margin-top: 40px;
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-bottom: dotted;
+    border-color: darkcyan;
+}
+#contact{
+    padding-bottom: 10px;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#phone{
+    padding-bottom: 6px;
+}
+#email{
+    padding-bottom: 6px;
+}
+#languages{
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-bottom: dotted;
+    border-color: darkcyan;
+}
+#heading{
+    padding-bottom: 10px;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#english{
+    padding-bottom: 6px;
+}
+#urdu{
+    padding-bottom: 6px;
+}
+#punjabi{
+    padding-bottom: 6px;
+}
+#skills{
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-bottom: dotted;
+    border-color: darkcyan;
+}
+#heading_skill{
+    padding-bottom: 10px;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#c{
+    padding-bottom: 6px;
+}
+#java{
+    padding-bottom: 6px;
+}
+#python{
+    padding-bottom: 6px;
+}
+#html{
+    padding-bottom: 6px;
+}
+#css{
+    padding-bottom: 6px;
+}
+#ms{
+    padding-bottom: 6px;
+}
+#excel{
+    padding-bottom: 6px;
+}
+#interests{
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-bottom: dotted;
+    border-color: darkcyan;
+}
+#heading_in{
+    padding-bottom: 10px;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#read{
+    padding-bottom: 6px;
+}
+#graphic{
+    padding-bottom: 6px;
+}
+#paint{
+    padding-bottom: 6px;
+}
+#reference{
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-bottom: dotted;
+    border-color: darkcyan;
+}
+#heading_ref{
+    padding-bottom: 10px;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#it{
+    padding-bottom: 6px;
+}
+#monash{
+    padding-bottom: 6px;
+}
+#ammar{
+    padding-bottom: 6px;
+}
+#right_col{
+    /* background-color: rgb(13, 65, 67); */
+    height: 247mm;
+    position: absolute;
+    top: 190px;
+    left: 270px;
+    width: 139mm;
+    /* border-left: dotted; */
+    border-color: darkcyan;
+    /* border-top: dotted; */
+    border-color: darkcyan;
+    text-align:left
+}
+#heading_prof{
+    width: 95%;
+    padding-bottom: 5px;
+    /* margin-bottom: ; */
+    border-bottom: 2px solid;
+    border-color: black;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#overview{
+    position: absolute;
+    top:45px;
+    width: 92%;
+    /* background-color: aquamarine; */
+}
+#education{
+    text-align: left;
+    position: relative;
+    top: 135px;
+}
+#heading_edu{
+    width: 95%;
+    padding-bottom: 5px;
+    /* margin-bottom: ; */
+    border-bottom: 2px solid;
+    border-color: black;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+    /* background-color: aquqamarine */
+}
+.timeline li .content h3.head {
+    margin-bottom: 5px; /* Adjust the spacing between h3 and p */
+  }
+  
+.timeline li .content p {
+    margin-top: 5px; /* Adjust the spacing between p elements */
+    margin-bottom: 5px; /* Adjust the spacing between p elements */
+    margin-left: 15px;
+}
+#intern{
+    position: absolute;
+    top:25px;
+    width: 92%;
+    /* background-color: aquamarine; */
+}
+#profession{
+    text-align: left;
+    position: relative;
+    top: 150px;
+}
+#heading_exp{
+    width: 95%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-color: black;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+#project{
+    text-align: left;
+    position: relative;
+    top: 200px;
+}
+#heading_pro{
+    width: 95%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-color: black;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+.projectline li .content_pro p {
+    margin-top: 5px; /* Adjust the spacing between p elements */
+    margin-bottom: 5px; /* Adjust the spacing between p elements */
+    margin-left: 15px;
+}
+#extra{
+    text-align: left;
+    position: relative;
+    top: 215px;
+}
+#heading_extra{
+    width: 95%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    border-color: black;
+    color: darkcyan;
+    font-size: 20;
+    font-weight: bolder;
+    font-family: Cambria, Cochin;
+}
+.extraline li .content_extra p {
+    margin-top: 5px; /* Adjust the spacing between p elements */
+    margin-bottom: 5px; /* Adjust the spacing between p elements */
+    margin-left: 15px;
+    width: 90%
+}
+ul{
+    list-style-type:square;
+}
+
+
+
+
+
+
