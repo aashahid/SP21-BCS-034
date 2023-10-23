@@ -1,0 +1,160 @@
+#header{
+    height: 60px;
+    overflow:hidden;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+h6{
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 0px;
+}
+#date{
+    margin-left: 120px;
+}
+#logo{
+    height: 50px;
+}
+.image{
+    position: relative;
+    margin-left: 180px;
+    margin-top: 0px;
+}
+.content{
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: aqua;
+}
+.here{
+    background-color: antiquewhite;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+    width:100%
+}
+.left {
+    list-style: none;
+    position: relative;
+  }
+  
+  .leftcontent {
+    margin-right: 180px; /* Adjust the margin to create space for .leftbar */
+    float: left; /* Float the content to the left */
+  }
+  
+  .leftbar {
+    width: 150px;
+    height: 100px; /* Maintain image aspect ratio */
+    position: absolute;
+    right: 35px;
+    top: 110px;
+    left: 80
+  }
+  .there{
+    background-color: black;
+  }
+  .middle{
+    background-color: blue;
+  }
+#top{
+ background-color: brown;
+ float:left;
+  }
+#imrankhan{
+    /* clear: right; */
+    width: 410px;
+    position: absolute;
+    top:200px;
+    left: 555px
+}
+#headimran{
+    width: 410px;
+    position: absolute;
+    top:455px;
+    left: 555px;
+    text-align: center;
+}
+#contentimran{
+    width: 410px;
+    position: absolute;
+    top:520px;
+    left:430px;
+    text-align: center;
+}
+#first{
+    /* position: absolute; */
+    margin-top:420px;
+    height:4px
+    /* left:430px; */
+}
+#popular{
+    text-align: center;
+}
+.hehe{
+    background-color: brown;
+}
+.in{
+    list-style: none;
+    position:relative
+}
+#gold1{
+    width: 100px;
+    height: 100; /* Maintain image aspect ratio */
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    left: 100px
+}
+#gold2{
+    width: 100px;
+    height: 100; /* Maintain image aspect ratio */
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    left: 100px
+}
+#gold3{
+    width: 100px;
+    height: 100; /* Maintain image aspect ratio */
+    position: absolute;
+    right: 0px;
+    top: 360px;
+    left: 100px
+}
+#gold4{
+    width: 100px;
+    height: 100; /* Maintain image aspect ratio */
+    position: absolute;
+    right: 0px;
+    top: 530px;
+    left: 100px
+}
+#gold5{
+    width: 100px;
+    height: 100; /* Maintain image aspect ratio */
+    position: absolute;
+    right: 0px;
+    top: 680px;
+    left: 100px
+}
+.middlecontent {
+    margin-right: 100px; /* Adjust the margin to create space for .leftbar */
+    float: left; /* Float the content to the left */
+}
+.right{
+    background-color: blue;
+}
+#last1{
+    height:4px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+#featured{
+    text-align: center;
+}
+#last2{
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+
+
