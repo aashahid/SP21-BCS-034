@@ -1,0 +1,25 @@
+<div class="block">
+  <div class="row">
+    <% products.forEach(product => { %>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="../../images/<%= product.image %>" alt="" />
+        <div class="card-body">
+          <h2 class="card-title text-centre"><%= product.name %></h2>
+          <h5 class="text-centre"><%= product.price %></h5>
+        </div>
+      </div>
+    </div>
+    <% }); %>
+  </div>
+
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center mt-4">
+      <% for (let i = 1; i <= totalPages; i++) { %>
+      <li class="page-item <%= i === page ? 'active' : '' %>">
+        <a class="page-link" href="/admin/all/<%= i %>"><%= i %></a>
+      </li>
+      <% } %>
+    </ul>
+  </nav>
+</div>

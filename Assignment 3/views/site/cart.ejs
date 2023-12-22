@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Price</th>
+  </thead>
+  <tbody>
+    <% let totalPrice = 0; %> <% if (cart && cart.length > 0) { %> <%
+    cart.forEach(item => { %>
+    <tr>
+      <td><%= item.name %></td>
+      <td><%= item.price %></td>
+    </tr>
+    <% totalPrice += item.price; %> <% }); %> <% } else { %>
+    <tr>
+      <td colspan="2">Your cart is empty</td>
+    </tr>
+    <% } %>
+  </tbody>
+  <tfoot>
+    <td>Total</td>
+    <td><%= totalPrice.toFixed(2) %></td>
+  </tfoot>
+</table>

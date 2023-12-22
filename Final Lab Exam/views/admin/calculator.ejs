@@ -1,0 +1,41 @@
+<form action="" method="post">
+  <div class="mb-3">
+    <label for="op1" class="form-label">Operand 1</label>
+    <input type="text" size="10" class="form-control" id="op1" name="op1" />
+  </div>
+  <div class="mb-3">
+    <label for="operation" class="form-label">Operation</label>
+    <select class="form-select" id="operation" name="operation">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+      <option value="%">%</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for="op2" class="form-label">Operand 2</label>
+    <input type="text" class="form-control" id="op2" name="op2" />
+  </div>
+  <button class="btn btn-info" type="submit">Calculate</button>
+</form>
+
+<% if (results.length > 0) { %>
+<h2>Results</h2>
+<table>
+  <tr>
+    <th>Operand 1</th>
+    <th>Operand 2</th>
+    <th>Operation</th>
+    <th>Result</th>
+  </tr>
+  <% results.forEach(result => { %>
+  <tr>
+    <td><%= result.op1 %></td>
+    <td><%= result.operation %></td>
+    <td><%= result.op2 %></td>
+    <td><%= result.result %></td>
+  </tr>
+  <% }); %>
+</table>
+<% } %>

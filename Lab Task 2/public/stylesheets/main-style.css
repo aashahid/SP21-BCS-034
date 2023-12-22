@@ -1,0 +1,78 @@
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* TOP GREEN LINE */
+#top{
+    background-color: cadetblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 600px;
+    font-family: Cambria;
+    font-size: px;
+    color: aliceblue;
+}
+
+/* NAV BAR */
+.left{
+    margin-left: 360px;
+    margin-right: auto;
+    font-family: Cambria;
+    font-size: 25px;
+}
+.right{
+    font-family: Cambria;
+    font-size: 22px;
+}
+#first{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+}
+
+/* FOOTER */
+#headings{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.care{
+    margin-left: 132px
+}
+
+.contact-list{
+    margin-left: 145px;
+}
+
+.company{
+    margin-left: 138px;
+}
+
+.foot a {
+    color: black;
+    text-decoration: none;
+    font-weight: -5;
+}
+
+.foot li{
+    margin-bottom: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* margin-top:80px; */
+}
+
+.foot{
+    background-color: cadetblue;
+    height:  40px;
+}
+
+/* FOR ADMIN */
+

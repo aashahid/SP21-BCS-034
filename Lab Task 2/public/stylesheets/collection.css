@@ -1,0 +1,65 @@
+.block{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box{
+    margin-bottom: 20px;
+}
+
+.main-image{
+    background-color: cornsilk;
+}
+
+.main-image img{
+    max-width: 100%;
+   
+}
+
+#inside{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#ele{
+    color:burlywood
+}
+
+#text{
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+
+.btn{
+    width: 100%
+}
+    
+.btn button{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 6px;
+    cursor: pointer
+}
+    
+.btn i{
+    margin-bottom: 3px
+}    
+    
+.card{
+    /* box-shadow: 0px 2px 5px; */
+    border: 2px solid;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+    
+.card:hover{
+    transform: translateY(-5px)
+}
+
+.card-body{
+    background-color: #EEEEEE; 
+}
+    
